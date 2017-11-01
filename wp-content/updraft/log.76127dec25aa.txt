@@ -1,0 +1,378 @@
+0000.000 (0) Opened log file at time: Fri, 22 Sep 2017 03:33:31 +0000 on https://bbweb-tobyip3169.c9users.io
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.21.22 WP: 4.8.1 PHP: 5.5.9-1ubuntu4.22 (Linux tobyip3169-bbweb-5275248 4.9.17-c9 #1 SMP Thu Mar 23 01:38:54 UTC 2017 x86_64) MySQL: 5.5.57 Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 2048M (used: 69.1M | 70.8M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 4353.2 Mb
+0000.026 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.039 (0) Requesting semaphore lock (fd)
+0000.045 (0) Semaphore (fd) was stuck, set lock time to 2017-09-22 03:33:31
+0000.049 (0) Semaphore (fd) reset to 1
+0000.052 (0) Set semaphore last lock (fd) time to 2017-09-22 03:33:31
+0000.055 (0) Semaphore lock (fd) complete
+0000.065 (0) Backup run: resumption=0, nonce=76127dec25aa, begun at=1506051211 (0s ago), job type=backup, label=Automatic backup before update
+0000.069 (0) A resumption will be scheduled for the cloud backup stage
+0000.071 (0) Scheduling a resumption (1) after 300 seconds (1506051511) in case this run gets aborted
+0000.083 (0) Checking if we have a zip executable available
+0000.089 (0) Testing: /usr/bin/zip
+0000.102 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.106 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.109 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.112 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0000.113 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0000.122 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0000.127 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0000.138 (0) Working binary zip found: /usr/bin/zip
+0000.145 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.148 (0) Creation of backups of directories: beginning
+0000.153 (0) No backup of plugins: excluded by user's options
+0000.157 (0) No backup of themes: excluded by user's options
+0000.160 (0) No backup of uploads: excluded by user's options
+0000.165 (0) Beginning creation of dump of wpcore (split every: 500 Mb)
+0000.215 (0) Total entities for the zip file: 108 directories, 1321 files (0 skipped as non-modified), 19.7 Mb
+0000.223 (0) Zip: backup_2017-09-22-1133_wordpresswpc_76127dec25aa-wpcore.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0000.231 (0) Zip: backup_2017-09-22-1133_wordpresswpc_76127dec25aa-wpcore.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0000.238 (0) Zip: backup_2017-09-22-1133_wordpresswpc_76127dec25aa-wpcore.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0000.246 (0) Zip: backup_2017-09-22-1133_wordpresswpc_76127dec25aa-wpcore.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0000.252 (0) Zip: backup_2017-09-22-1133_wordpresswpc_76127dec25aa-wpcore.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0000.256 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.5 Mb, 1321 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0000.800 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-wpcore.zip.tmp: size is now: 1.90 Mb
+0000.810 (0) Zip: backup_2017-09-22-1133_wordpresswpc_76127dec25aa-wpcore.zip.tmp: 600 files added (on-disk size: 1944.7 Kb)
+0000.820 (0) Zip: backup_2017-09-22-1133_wordpresswpc_76127dec25aa-wpcore.zip.tmp: 700 files added (on-disk size: 1944.7 Kb)
+0000.828 (0) Zip: backup_2017-09-22-1133_wordpresswpc_76127dec25aa-wpcore.zip.tmp: 800 files added (on-disk size: 1944.7 Kb)
+0000.835 (0) Zip: backup_2017-09-22-1133_wordpresswpc_76127dec25aa-wpcore.zip.tmp: 900 files added (on-disk size: 1944.7 Kb)
+0000.842 (0) Zip: backup_2017-09-22-1133_wordpresswpc_76127dec25aa-wpcore.zip.tmp: 1000 files added (on-disk size: 1944.7 Kb)
+0000.846 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.5 Mb, 1321 files batched, 501 (1002) added so far); re-opening (prior size: 1944.7 Kb)
+0001.391 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-wpcore.zip.tmp: size is now: 4.20 Mb
+0001.406 (0) Zip: backup_2017-09-22-1133_wordpresswpc_76127dec25aa-wpcore.zip.tmp: 1100 files added (on-disk size: 4319.2 Kb)
+0001.417 (0) Zip: backup_2017-09-22-1133_wordpresswpc_76127dec25aa-wpcore.zip.tmp: 1200 files added (on-disk size: 4319.2 Kb)
+0001.424 (0) Zip: backup_2017-09-22-1133_wordpresswpc_76127dec25aa-wpcore.zip.tmp: 1300 files added (on-disk size: 4319.2 Kb)
+0001.895 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-wpcore.zip.tmp: size is now: 6.20 Mb
+0001.931 (0) Created wpcore zip (0) - 6377.3 Kb in 1.8 s (3617.9 Kb/s) (SHA1 checksum: 567e6195015d0b931e6115f7f80b09f225894797)
+0001.938 (0) No backup of others: excluded by user's options
+0001.943 (0) No backup of more: excluded by user's options
+0001.953 (0) Saving backup status to database (elements: 2)
+0001.961 (0) Beginning creation of database dump (WordPress DB)
+0001.966 (0) Testing: /usr/bin/mysqldump
+0002.002 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0002.025 (0) Table wp_options: Total expected rows (approximate): 2336
+0002.122 (0) Table wp_options: Total rows added: 2072 in 0.09 seconds
+0002.128 (0) Table wp_options: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_options.table.gz - 213.8 Kb)
+0002.137 (0) Table wp_users: Total expected rows (approximate): 3
+0002.142 (0) Table wp_users: Total rows added: 3 in 0.00 seconds
+0002.144 (0) Table wp_users: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_users.table.gz - 0.7 Kb)
+0002.152 (0) Table wp_usermeta: Total expected rows (approximate): 65
+0002.159 (0) Table wp_usermeta: Total rows added: 65 in 0.00 seconds
+0002.161 (0) Table wp_usermeta: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_usermeta.table.gz - 2.5 Kb)
+0002.170 (0) Table wp_commentmeta: Total expected rows (approximate): 2
+0002.173 (0) Table wp_commentmeta: Total rows added: 2 in 0.00 seconds
+0002.177 (0) Table wp_commentmeta: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_commentmeta.table.gz - 0.4 Kb)
+0002.190 (0) Table wp_comments: Total expected rows (approximate): 2
+0002.194 (0) Table wp_comments: Total rows added: 2 in 0.00 seconds
+0002.196 (0) Table wp_comments: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_comments.table.gz - 0.9 Kb)
+0002.208 (0) Table wp_links: Total expected rows (approximate): 0
+0002.213 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0002.217 (0) Table wp_links: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_links.table.gz - 0.4 Kb)
+0002.237 (0) Table wp_postmeta: Total expected rows (approximate): 7612
+0002.899 (0) Table wp_postmeta: Total rows added: 20833 in 0.66 seconds
+0002.902 (0) Table wp_postmeta: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_postmeta.table.gz - 564.8 Kb)
+0002.915 (0) Table wp_posts: Total expected rows (approximate): 862
+0003.111 (0) Table wp_posts: Total rows added: 1214 in 0.19 seconds
+0003.118 (0) Table wp_posts: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_posts.table.gz - 75.6 Kb)
+0003.133 (0) Table wp_term_relationships: Total expected rows (approximate): 1083
+0003.149 (0) Table wp_term_relationships: Total rows added: 821 in 0.01 seconds
+0003.152 (0) Table wp_term_relationships: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_term_relationships.table.gz - 2.3 Kb)
+0003.164 (0) Table wp_term_taxonomy: Total expected rows (approximate): 95
+0003.177 (0) Table wp_term_taxonomy: Total rows added: 262 in 0.01 seconds
+0003.180 (0) Table wp_term_taxonomy: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_term_taxonomy.table.gz - 2.2 Kb)
+0003.192 (0) Table wp_termmeta: Total expected rows (approximate): 16
+0003.197 (0) Table wp_termmeta: Total rows added: 16 in 0.00 seconds
+0003.201 (0) Table wp_termmeta: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_termmeta.table.gz - 0.5 Kb)
+0003.226 (0) Table wp_terms: Total expected rows (approximate): 307
+0003.238 (0) Table wp_terms: Total rows added: 262 in 0.01 seconds
+0003.242 (0) Table wp_terms: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_terms.table.gz - 4.3 Kb)
+0003.253 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 9
+0003.262 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 9 in 0.00 seconds
+0003.264 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.5 Kb)
+0003.272 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0003.277 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0003.280 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 Kb)
+0003.293 (0) Table wp_datalist: Total expected rows (approximate): 0
+0003.298 (0) Table wp_datalist: Total rows added: 0 in 0.00 seconds
+0003.300 (0) Table wp_datalist: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_datalist.table.gz - 0.3 Kb)
+0003.310 (0) Table wp_media_file_manager_log: Total expected rows (approximate): 0
+0003.314 (0) Table wp_media_file_manager_log: Total rows added: 0 in 0.00 seconds
+0003.316 (0) Table wp_media_file_manager_log: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_media_file_manager_log.table.gz - 0.3 Kb)
+0003.328 (0) Table wp_mgmlp_folders: Total expected rows (approximate): 376
+0003.335 (0) Table wp_mgmlp_folders: Total rows added: 376 in 0.01 seconds
+0003.338 (0) Table wp_mgmlp_folders: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_mgmlp_folders.table.gz - 1.1 Kb)
+0003.350 (0) Table wp_po_plugins: Total expected rows (approximate): 0
+0003.354 (0) Table wp_po_plugins: Total rows added: 0 in 0.00 seconds
+0003.356 (0) Table wp_po_plugins: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_po_plugins.table.gz - 0.5 Kb)
+0003.369 (0) Table wp_revslider_css: Total expected rows (approximate): 120
+0003.380 (0) Table wp_revslider_css: Total rows added: 121 in 0.01 seconds
+0003.384 (0) Table wp_revslider_css: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_revslider_css.table.gz - 5.2 Kb)
+0003.394 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0003.398 (0) Table wp_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0003.401 (0) Table wp_revslider_layer_animations: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_revslider_layer_animations.table.gz - 0.3 Kb)
+0003.425 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0003.429 (0) Table wp_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0003.433 (0) Table wp_revslider_navigations: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_revslider_navigations.table.gz - 0.3 Kb)
+0003.447 (0) Table wp_revslider_sliders: Total expected rows (approximate): 12
+0003.456 (0) Table wp_revslider_sliders: Total rows added: 13 in 0.00 seconds
+0003.460 (0) Table wp_revslider_sliders: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_revslider_sliders.table.gz - 6.4 Kb)
+0003.473 (0) Table wp_revslider_slides: Total expected rows (approximate): 49
+0003.484 (0) Table wp_revslider_slides: Total rows added: 25 in 0.01 seconds
+0003.488 (0) Table wp_revslider_slides: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_revslider_slides.table.gz - 10.1 Kb)
+0003.500 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 7
+0003.506 (0) Table wp_revslider_static_slides: Total rows added: 7 in 0.00 seconds
+0003.509 (0) Table wp_revslider_static_slides: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_revslider_static_slides.table.gz - 0.4 Kb)
+0003.518 (0) Table wp_smush_dir_images: Total expected rows (approximate): 0
+0003.522 (0) Table wp_smush_dir_images: Total rows added: 0 in 0.00 seconds
+0003.528 (0) Table wp_smush_dir_images: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_smush_dir_images.table.gz - 0.4 Kb)
+0003.540 (0) Table wp_wfBadLeechers: Total expected rows (approximate): 0
+0003.545 (0) Table wp_wfBadLeechers: Total rows added: 0 in 0.00 seconds
+0003.549 (0) Table wp_wfBadLeechers: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfBadLeechers.table.gz - 0.3 Kb)
+0003.557 (0) Table wp_wfBlockedIPLog: Total expected rows (approximate): 0
+0003.562 (0) Table wp_wfBlockedIPLog: Total rows added: 0 in 0.00 seconds
+0003.564 (0) Table wp_wfBlockedIPLog: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfBlockedIPLog.table.gz - 0.3 Kb)
+0003.577 (0) Table wp_wfBlocks: Total expected rows (approximate): 0
+0003.581 (0) Table wp_wfBlocks: Total rows added: 0 in 0.00 seconds
+0003.584 (0) Table wp_wfBlocks: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfBlocks.table.gz - 0.4 Kb)
+0003.604 (0) Table wp_wfBlocksAdv: Total expected rows (approximate): 0
+0003.612 (0) Table wp_wfBlocksAdv: Total rows added: 0 in 0.00 seconds
+0003.617 (0) Table wp_wfBlocksAdv: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfBlocksAdv.table.gz - 0.3 Kb)
+0003.652 (0) Table wp_wfConfig: Total expected rows (approximate): 173
+0003.661 (0) Table wp_wfConfig: Total rows added: 192 in 0.01 seconds
+0003.665 (0) Table wp_wfConfig: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfConfig.table.gz - 4.7 Kb)
+0003.676 (0) Table wp_wfCrawlers: Total expected rows (approximate): 23
+0003.683 (0) Table wp_wfCrawlers: Total rows added: 23 in 0.00 seconds
+0003.686 (0) Table wp_wfCrawlers: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfCrawlers.table.gz - 0.8 Kb)
+0003.698 (0) Table wp_wfFileMods: Total expected rows (approximate): 265
+0003.718 (0) Table wp_wfFileMods: Total rows added: 256 in 0.02 seconds
+0003.748 (0) Table wp_wfFileMods: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfFileMods.table.gz - 11.9 Kb)
+0003.758 (0) Table wp_wfHits: Total expected rows (approximate): 1605
+0003.881 (0) Table wp_wfHits: Total rows added: 1615 in 0.12 seconds
+0003.884 (0) Table wp_wfHits: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfHits.table.gz - 29.1 Kb)
+0003.900 (0) Table wp_wfHoover: Total expected rows (approximate): 0
+0003.905 (0) Table wp_wfHoover: Total rows added: 0 in 0.00 seconds
+0003.909 (0) Table wp_wfHoover: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfHoover.table.gz - 0.3 Kb)
+0003.926 (0) Table wp_wfIssues: Total expected rows (approximate): 12
+0003.934 (0) Table wp_wfIssues: Total rows added: 0 in 0.00 seconds
+0003.942 (0) Table wp_wfIssues: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfIssues.table.gz - 0.4 Kb)
+0003.963 (0) Table wp_wfKnownFileList: Total expected rows (approximate): 0
+0003.967 (0) Table wp_wfKnownFileList: Total rows added: 0 in 0.00 seconds
+0003.969 (0) Table wp_wfKnownFileList: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfKnownFileList.table.gz - 0.3 Kb)
+0003.982 (0) Table wp_wfLeechers: Total expected rows (approximate): 3
+0003.989 (0) Table wp_wfLeechers: Total rows added: 3 in 0.00 seconds
+0003.993 (0) Table wp_wfLeechers: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfLeechers.table.gz - 0.4 Kb)
+0004.010 (0) Table wp_wfLockedOut: Total expected rows (approximate): 0
+0004.015 (0) Table wp_wfLockedOut: Total rows added: 0 in 0.00 seconds
+0004.019 (0) Table wp_wfLockedOut: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfLockedOut.table.gz - 0.3 Kb)
+0004.032 (0) Table wp_wfLocs: Total expected rows (approximate): 0
+0004.037 (0) Table wp_wfLocs: Total rows added: 0 in 0.00 seconds
+0004.044 (0) Table wp_wfLocs: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfLocs.table.gz - 0.4 Kb)
+0004.053 (0) Table wp_wfLogins: Total expected rows (approximate): 68
+0004.061 (0) Table wp_wfLogins: Total rows added: 68 in 0.00 seconds
+0004.068 (0) Table wp_wfLogins: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfLogins.table.gz - 1.9 Kb)
+0004.076 (0) Table wp_wfNet404s: Total expected rows (approximate): 0
+0004.081 (0) Table wp_wfNet404s: Total rows added: 0 in 0.00 seconds
+0004.085 (0) Table wp_wfNet404s: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfNet404s.table.gz - 0.3 Kb)
+0004.096 (0) Table wp_wfNotifications: Total expected rows (approximate): 4
+0004.101 (0) Table wp_wfNotifications: Total rows added: 4 in 0.00 seconds
+0004.104 (0) Table wp_wfNotifications: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfNotifications.table.gz - 1.3 Kb)
+0004.117 (0) Table wp_wfPendingIssues: Total expected rows (approximate): 0
+0004.123 (0) Table wp_wfPendingIssues: Total rows added: 0 in 0.00 seconds
+0004.125 (0) Table wp_wfPendingIssues: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfPendingIssues.table.gz - 0.4 Kb)
+0004.137 (0) Table wp_wfReverseCache: Total expected rows (approximate): 4
+0004.143 (0) Table wp_wfReverseCache: Total rows added: 4 in 0.00 seconds
+0004.151 (0) Table wp_wfReverseCache: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfReverseCache.table.gz - 0.4 Kb)
+0004.169 (0) Table wp_wfSNIPCache: Total expected rows (approximate): 0
+0004.176 (0) Table wp_wfSNIPCache: Total rows added: 0 in 0.00 seconds
+0004.181 (0) Table wp_wfSNIPCache: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfSNIPCache.table.gz - 0.4 Kb)
+0004.197 (0) Table wp_wfScanners: Total expected rows (approximate): 0
+0004.203 (0) Table wp_wfScanners: Total rows added: 0 in 0.00 seconds
+0004.209 (0) Table wp_wfScanners: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfScanners.table.gz - 0.3 Kb)
+0004.222 (0) Table wp_wfStatus: Total expected rows (approximate): 1041
+0004.252 (0) Table wp_wfStatus: Total rows added: 949 in 0.03 seconds
+0004.256 (0) Table wp_wfStatus: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfStatus.table.gz - 18.1 Kb)
+0004.266 (0) Table wp_wfThrottleLog: Total expected rows (approximate): 0
+0004.270 (0) Table wp_wfThrottleLog: Total rows added: 0 in 0.00 seconds
+0004.273 (0) Table wp_wfThrottleLog: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfThrottleLog.table.gz - 0.3 Kb)
+0004.281 (0) Table wp_wfVulnScanners: Total expected rows (approximate): 0
+0004.285 (0) Table wp_wfVulnScanners: Total rows added: 0 in 0.00 seconds
+0004.289 (0) Table wp_wfVulnScanners: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfVulnScanners.table.gz - 0.3 Kb)
+0004.299 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0004.302 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0004.304 (0) Table wp_woocommerce_api_keys: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_api_keys.table.gz - 0.4 Kb)
+0004.319 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0004.322 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0004.325 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 Kb)
+0004.336 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0004.341 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0004.345 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 Kb)
+0004.359 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0004.370 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0004.373 (0) Table wp_woocommerce_log: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_log.table.gz - 0.4 Kb)
+0004.388 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 1
+0004.394 (0) Table wp_woocommerce_order_items: Total rows added: 1 in 0.00 seconds
+0004.398 (0) Table wp_woocommerce_order_items: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_order_items.table.gz - 0.4 Kb)
+0004.408 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0004.411 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0004.413 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 Kb)
+0004.432 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 2
+0004.435 (0) Table wp_woocommerce_sessions: Total rows added: 2 in 0.00 seconds
+0004.438 (0) Table wp_woocommerce_sessions: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_sessions.table.gz - 0.7 Kb)
+0004.448 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0004.452 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0004.456 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 Kb)
+0004.470 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0004.473 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0004.476 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 Kb)
+0004.486 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0004.490 (0) Table wp_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0004.493 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 Kb)
+0004.504 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0004.509 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0004.514 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 Kb)
+0004.532 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0004.537 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0004.543 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 Kb)
+0004.564 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 7
+0004.571 (0) Table wp_yoast_seo_links: Total rows added: 7 in 0.00 seconds
+0004.577 (0) Table wp_yoast_seo_links: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_yoast_seo_links.table.gz - 0.5 Kb)
+0004.592 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 34
+0004.599 (0) Table wp_yoast_seo_meta: Total rows added: 34 in 0.00 seconds
+0004.601 (0) Table wp_yoast_seo_meta: finishing file (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_yoast_seo_meta.table.gz - 0.5 Kb)
+0004.621 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_options.table.gz (1/63): adding to final database dump
+0004.681 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_users.table.gz (2/63): adding to final database dump
+0004.686 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_usermeta.table.gz (3/63): adding to final database dump
+0004.688 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_commentmeta.table.gz (4/63): adding to final database dump
+0004.692 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_comments.table.gz (5/63): adding to final database dump
+0004.695 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_links.table.gz (6/63): adding to final database dump
+0004.697 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_postmeta.table.gz (7/63): adding to final database dump
+0004.930 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_posts.table.gz (8/63): adding to final database dump
+0004.975 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_term_relationships.table.gz (9/63): adding to final database dump
+0004.983 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_term_taxonomy.table.gz (10/63): adding to final database dump
+0004.987 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_termmeta.table.gz (11/63): adding to final database dump
+0004.990 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_terms.table.gz (12/63): adding to final database dump
+0004.999 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_order_itemmeta.table.gz (13/63): adding to final database dump
+0005.004 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_payment_tokenmeta.table.gz (14/63): adding to final database dump
+0005.009 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_datalist.table.gz (15/63): adding to final database dump
+0005.013 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_media_file_manager_log.table.gz (16/63): adding to final database dump
+0005.020 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_mgmlp_folders.table.gz (17/63): adding to final database dump
+0005.026 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_po_plugins.table.gz (18/63): adding to final database dump
+0005.032 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_revslider_css.table.gz (19/63): adding to final database dump
+0005.036 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_revslider_layer_animations.table.gz (20/63): adding to final database dump
+0005.041 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_revslider_navigations.table.gz (21/63): adding to final database dump
+0005.051 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_revslider_sliders.table.gz (22/63): adding to final database dump
+0005.056 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_revslider_slides.table.gz (23/63): adding to final database dump
+0005.064 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_revslider_static_slides.table.gz (24/63): adding to final database dump
+0005.066 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_smush_dir_images.table.gz (25/63): adding to final database dump
+0005.069 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfBadLeechers.table.gz (26/63): adding to final database dump
+0005.072 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfBlockedIPLog.table.gz (27/63): adding to final database dump
+0005.077 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfBlocks.table.gz (28/63): adding to final database dump
+0005.080 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfBlocksAdv.table.gz (29/63): adding to final database dump
+0005.082 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfConfig.table.gz (30/63): adding to final database dump
+0005.086 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfCrawlers.table.gz (31/63): adding to final database dump
+0005.093 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfFileMods.table.gz (32/63): adding to final database dump
+0005.099 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfHits.table.gz (33/63): adding to final database dump
+0005.120 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfHoover.table.gz (34/63): adding to final database dump
+0005.129 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfIssues.table.gz (35/63): adding to final database dump
+0005.133 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfKnownFileList.table.gz (36/63): adding to final database dump
+0005.136 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfLeechers.table.gz (37/63): adding to final database dump
+0005.140 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfLockedOut.table.gz (38/63): adding to final database dump
+0005.146 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfLocs.table.gz (39/63): adding to final database dump
+0005.148 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfLogins.table.gz (40/63): adding to final database dump
+0005.153 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfNet404s.table.gz (41/63): adding to final database dump
+0005.156 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfNotifications.table.gz (42/63): adding to final database dump
+0005.165 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfPendingIssues.table.gz (43/63): adding to final database dump
+0005.169 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfReverseCache.table.gz (44/63): adding to final database dump
+0005.173 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfSNIPCache.table.gz (45/63): adding to final database dump
+0005.178 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfScanners.table.gz (46/63): adding to final database dump
+0005.185 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfStatus.table.gz (47/63): adding to final database dump
+0005.196 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfThrottleLog.table.gz (48/63): adding to final database dump
+0005.200 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_wfVulnScanners.table.gz (49/63): adding to final database dump
+0005.209 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_api_keys.table.gz (50/63): adding to final database dump
+0005.217 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_attribute_taxonomies.table.gz (51/63): adding to final database dump
+0005.220 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (52/63): adding to final database dump
+0005.224 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_log.table.gz (53/63): adding to final database dump
+0005.227 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_order_items.table.gz (54/63): adding to final database dump
+0005.229 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_payment_tokens.table.gz (55/63): adding to final database dump
+0005.232 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_sessions.table.gz (56/63): adding to final database dump
+0005.236 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_shipping_zone_locations.table.gz (57/63): adding to final database dump
+0005.241 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_shipping_zone_methods.table.gz (58/63): adding to final database dump
+0005.245 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_shipping_zones.table.gz (59/63): adding to final database dump
+0005.248 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_tax_rate_locations.table.gz (60/63): adding to final database dump
+0005.251 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_woocommerce_tax_rates.table.gz (61/63): adding to final database dump
+0005.255 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_yoast_seo_links.table.gz (62/63): adding to final database dump
+0005.257 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db-table-wp_yoast_seo_meta.table.gz (63/63): adding to final database dump
+0005.260 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db.gz: finished writing out complete database file (944 Kb)
+0005.276 (0) Total database tables backed up: 63 (backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db.gz, size: 985260, checksum (SHA1): 0351b8c6451a576d996b26b2d19ed7aca0c2eda6)
+0005.284 (0) Saving backup history
+0005.295 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+0005.297 (0) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db.gz: db: This file has not yet been successfully uploaded: will queue
+0005.305 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0005.326 (0) Cloud backup selection (1/1): openstack (last)
+0005.328 (0) Beginning dispatch of backup to remote (openstack)
+0005.332 (0) OpenStack error - failed to access the container (Authorisation failed (check your credentials)) (line: 25, file: /home/ubuntu/workspace/wp-content/plugins/updraftplus/methods/openstack2.php)
+0005.337 (0) An error condition has occurred for the first time during this job
+0005.344 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+0005.348 (0) Number of backup sets in history: 3
+0005.352 (0) Examining backup set with datestamp: 1506051211 (Sep 22 2017 03:33:31)
+0005.356 (0) This backup set (1506051211) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0005.360 (0) This backup set (1506051211) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0005.360 (0) 1506051211: this backup set remains non-empty (1/1); will retain in history
+0005.363 (0) Examining backup set with datestamp: 1505202905 (Sep 12 2017 07:55:05)
+0005.365 (0) 1505202905: db: was sent to remote site; will remove from local record (only)
+0005.368 (0) Delete file: backup_2017-09-12-1555_wordpresswpc_22751e0f3dec-db.gz, service=openstack
+0005.372 (0) OpenStack error - failed to access the container (Authorisation failed (check your credentials))
+0005.379 (0) plugins: 1505202905: was sent to remote site; will remove from local record (only)
+0005.384 (0) themes: 1505202905: was sent to remote site; will remove from local record (only)
+0005.387 (0) uploads: 1505202905: was sent to remote site; will remove from local record (only)
+0005.389 (0) others: 1505202905: was sent to remote site; will remove from local record (only)
+0005.392 (0) Delete file: backup_2017-09-12-1555_wordpresswpc_22751e0f3dec-plugins.zip, service=openstack
+0005.396 (0) Delete file: backup_2017-09-12-1555_wordpresswpc_22751e0f3dec-themes.zip, service=openstack
+0005.400 (0) Delete file: backup_2017-09-12-1555_wordpresswpc_22751e0f3dec-uploads.zip, service=openstack
+0005.403 (0) Delete file: backup_2017-09-12-1555_wordpresswpc_22751e0f3dec-others.zip, service=openstack
+0005.407 (0) OpenStack error - failed to access the container (Authorisation failed (check your credentials))
+0005.412 (0) 1505202905: this backup set is now empty; will remove from history
+0005.423 (0) 1505202905: deleting log file (log.22751e0f3dec.txt)
+0005.430 (0) Examining backup set with datestamp: 1505190420 (Sep 12 2017 04:27:00)
+0005.435 (0) 1505190420: this backup set remains non-empty (1/1); will retain in history
+0005.441 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0005.453 (0) Resume backup (76127dec25aa, 0): finish run
+0005.460 (0) Decremented the semaphore (fd) by 1
+0005.464 (0) Semaphore (fd) unlocked
+0005.467 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0005.476 (0) Rescheduling resumption 1: moving to 120 seconds from now (1506051337)
+0005.484 (0) No email will/can be sent - the user has not configured an email address.
+0005.485 (0) The backup has not finished; a resumption is scheduled
+0139.072 (1) Opened log file at time: Fri, 22 Sep 2017 03:35:50 +0000 on https://bbweb-tobyip3169.c9users.io
+0139.076 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.21.22 WP: 4.8.2 PHP: 5.5.9-1ubuntu4.22 (Linux tobyip3169-bbweb-5275248 4.9.17-c9 #1 SMP Thu Mar 23 01:38:54 UTC 2017 x86_64) MySQL: 5.5.57 Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 2048M (used: 65.9M | 66.5M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+0139.079 (1) Free space on disk containing Updraft's temporary directory: 4344.5 Mb
+0139.084 (1) Backup run: resumption=1, nonce=76127dec25aa, begun at=1506051211 (139s ago), job type=backup, previous check-in=5.4s
+0139.088 (1) We are in "one shot" mode - no resumptions will be scheduled
+0139.096 (1) Checking if we have a zip executable available
+0139.099 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0139.100 (1) Creation of backups of directories: already finished
+0139.104 (1) Saving backup status to database (elements: 2)
+0139.109 (1) Database dump (WordPress DB): Creation was completed already
+0139.114 (1) Saving backup history
+0139.126 (1) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+0139.129 (1) backup_2017-09-22-1133_wordpresswpc_76127dec25aa-db.gz: db: This file has not yet been successfully uploaded: will queue
+0139.136 (1) Requesting upload of the files that have not yet been successfully uploaded (2)
+0139.141 (1) Cloud backup selection (1/1): openstack (last)
+0139.145 (1) Beginning dispatch of backup to remote (openstack)
+0139.148 (1) OpenStack error - failed to access the container (Authorisation failed (check your credentials)) (line: 25, file: /home/ubuntu/workspace/wp-content/plugins/updraftplus/methods/openstack2.php)
+0139.152 (1) An error condition has occurred for the first time during this job
+0139.158 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+0139.162 (1) Number of backup sets in history: 2
+0139.166 (1) Examining backup set with datestamp: 1506051211 (Sep 22 2017 03:33:31)
+0139.169 (1) This backup set (1506051211) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0139.173 (1) This backup set (1506051211) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0139.173 (1) 1506051211: this backup set remains non-empty (1/1); will retain in history
+0139.175 (1) Examining backup set with datestamp: 1505190420 (Sep 12 2017 04:27:00)
+0139.179 (1) 1505190420: this backup set remains non-empty (1/1); will retain in history
+0139.181 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0139.188 (1) Resume backup (76127dec25aa, 1): finish run
+0139.194 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0139.200 (1) No email will/can be sent - the user has not configured an email address.
+0139.203 (1) The backup attempt has finished, apparently unsuccessfully

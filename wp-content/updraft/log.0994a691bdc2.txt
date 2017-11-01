@@ -1,0 +1,7 @@
+0000.000 (0) Opened log file at time: Tue, 12 Sep 2017 02:54:34 +0000 on https://bbweb-tobyip3169.c9users.io
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.21.22 WP: 4.8.1 PHP: 5.5.9-1ubuntu4.22 (Linux tobyip3169-bbweb-5275248 4.9.17-c9 #1 SMP Thu Mar 23 01:38:54 UTC 2017 x86_64) MySQL: 5.5.57 Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 2048M (used: 80.1M | 81.3M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 4505.2 Mb
+0000.015 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.025 (0) Requesting semaphore lock (fd)
+0000.029 (0) Semaphore lock (fd) failed (line 41)
+0000.032 (0) Failed to gain semaphore lock (fd) - another backup of this type is apparently already active - aborting (if this is wrong - i.e. if the other backup crashed without removing the lock, then another can be started after 3 minutes)
